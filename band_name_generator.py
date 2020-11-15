@@ -2,8 +2,8 @@ from random import choice   #Import random.choice
     
 def select_answer():
     global first_string, second_string   #Set "first_string" and "second_string" as global variables for use in "main" function
-    first_string = choice(answers)   #Have computer select an answer
-    second_string = choice(answers)   #Have computer select an answer
+    first_string = choice(answers)   #Computer selects an answer
+    second_string = choice(answers)   #Computer selects an answer
     if first_string == second_string:   #Check if the computer picked the same answer for the "first_string" variable and the "second_string" variable
         select_answer()   #If computer selected the same answer for both string variables, select another answer
     else:
