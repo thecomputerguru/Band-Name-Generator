@@ -5,7 +5,7 @@ def select_answer():
     first_string = choice(answers)   #Computer selects an answer
     second_string = choice(answers)   #Computer selects an answer
     if first_string == second_string:   #Check if the computer picked the same answer for the "first_string" variable and the "second_string" variable
-        select_answer()   #If computer selected the same answer for both string variables, select another answer
+        select_answer()   #If computer selected the same answer for both string variables, make new selection
     else:
         pass   #If computer selected two different answers, then continue
 
